@@ -7,17 +7,17 @@ body {
     padding-top: 50px;
     font-family: 'Lato', sans-serif;
     font-size: 14pt;
-    background-color: lightgray;
+    background-color: #A66FA6;
     margin-bottom: 110px;
 }
 
 a {
-    color: #333;
+    color: #FFFFFF;
 }
 
     a:hover {
         text-decoration: underline;
-        color: #333;
+        color: #FFFFFF;
     }
 
 .btn {
@@ -30,7 +30,7 @@ h4 {
 }
 
 .btn:hover, .btn:focus {
-    background-color: darkorange;
+    background-color: #A66FA6;
     color: white;
 }
 
@@ -38,7 +38,7 @@ h4 {
     margin-bottom: 10px;
 }
 .jumbotron {
-    color: #FE940D;
+    color: #FFFFFF;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../images/banner-home.jpg');
 
     background-position: center center;
@@ -53,6 +53,7 @@ h4 {
     .jumbotron p {
         font-weight: 700;
         font-size: 2rem;
+        color: #ffffff
     }
 
 .jumbotron-speaking {
@@ -68,7 +69,7 @@ h4 {
 }
 
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-    color: darkorange;
+    color: #A66FA6;
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
@@ -90,20 +91,20 @@ h4 {
 }
 
 .green-background {
-    background-color: #3AEAC8;
+    background-color: #6E256E;
 }
 
 .blue-background {
-    background-color: #0DABFE;
+    background-color: #530E53;
 }
 
 .lightblue-background {
-    background-color: #00D4E7;
+    background-color: #A66FA6;
 }
 
     margin-bottom: 0px;
 .teal-background {
-    background-color: #008E9A;
+    background-color: #BCCD67;
 }
 
 .copper-background {
@@ -151,4 +152,8 @@ footer {
 
 .profile-photo {
     max-width: 200px;
+}
+
+.col-md-8 {
+    color: white;
 }
